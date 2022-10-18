@@ -64,13 +64,7 @@ function(instance, properties, context) {
                   userobj[properties.custom_attribute_5_key] = properties.custom_attribute_5_value;
               }
           
-          
-          initializeImporter(properties.license_key, userobj);
-          
-            setTimeout(function() {
-              button.removeAttribute('disabled');    
-            }, 3000);
-          
+          initializeImporter(properties.license_key, userobj, button);
           
           div.click(function() {
               openModal();

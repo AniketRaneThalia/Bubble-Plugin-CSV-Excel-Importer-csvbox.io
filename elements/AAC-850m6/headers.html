@@ -24,24 +24,17 @@
       
     }  
    
-    
-     let importer = new CSVBoxImporter("h8rwV9yusJPKunvkAEuqMQ8djuZjRk",{}, callback);
-    
-     importer.setUser({
-            user_id: 'default123'
-        });    
-    
+     let importer = null;  
     
     function openModal(){
-		importer.openModal();
+		if(importer !== null) importer.openModal();
     }
     
-     function initializeImporter(slug, userobj){		        
-        
-        importer.slug = slug;
-        importer.data = userobj;
-        importer.callback = callback;
-        importer.setUpImporter();         
+     function initializeImporter(slug, userobj, button) {
+        importer = new CSVBoxImporter(slug, userobj, callback);
+         importer.listen("onReady", function(){
+             button.removeAttribute('disabled');
+         });
        
     }    
      
