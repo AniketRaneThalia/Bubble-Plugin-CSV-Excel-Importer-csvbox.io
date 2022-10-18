@@ -1,0 +1,138 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "add_large_file_upload_properties": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 100,
+        "width": 200
+    },
+    "display": "CSVBox Button",
+    "events": {
+        "AAZ": {
+            "caption": "import_success",
+            "name": "import_success"
+        },
+        "AAb": {
+            "caption": "import_fail",
+            "name": "import_fail"
+        }
+    },
+    "fields": {
+        "AAM": {
+            "caption": "Sheet license key",
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "license_key",
+            "optional": false,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "user_id",
+            "default_val": "default123",
+            "doc": "user_id custom attribute",
+            "editor": "DynamicValue",
+            "name": "user_id",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "custom_attribute_2_key",
+            "doc": "custom_attribute_2_key",
+            "editor": "StaticText",
+            "name": "custom_attribute_2_key",
+            "optional": true,
+            "rank": 4
+        },
+        "AAP": {
+            "caption": "custom_attribute_2_value",
+            "doc": "custom_attribute_2_value",
+            "editor": "DynamicValue",
+            "name": "custom_attribute_2_value",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "button_text",
+            "default_val": "Upload File",
+            "doc": "Button Text",
+            "editor": "StaticText",
+            "name": "button_text",
+            "optional": true,
+            "rank": 1
+        },
+        "AAR": {
+            "caption": "button_classes",
+            "doc": "Classes to stylize the button",
+            "editor": "StaticText",
+            "name": "button_classes",
+            "optional": true,
+            "rank": 2
+        },
+        "AAS": {
+            "caption": "custom_attribute_3_key",
+            "doc": "custom_attribute_3_key",
+            "editor": "StaticText",
+            "name": "custom_attribute_3_key",
+            "optional": true,
+            "rank": 6
+        },
+        "AAT": {
+            "caption": "custom_attribute_3_value",
+            "doc": "custom_attribute_3_value",
+            "editor": "DynamicValue",
+            "name": "custom_attribute_3_value",
+            "optional": true,
+            "rank": 7,
+            "value": "text"
+        },
+        "AAU": {
+            "caption": "custom_attribute_4_key",
+            "doc": "custom_attribute_4_key",
+            "editor": "StaticText",
+            "name": "custom_attribute_4_key",
+            "optional": true,
+            "rank": 8
+        },
+        "AAV": {
+            "caption": "custom_attribute_4_value",
+            "doc": "custom_attribute_4_value",
+            "editor": "DynamicValue",
+            "name": "custom_attribute_4_value",
+            "optional": true,
+            "rank": 9,
+            "value": "text"
+        },
+        "AAW": {
+            "caption": "custom_attribute_5_key",
+            "doc": "custom_attribute_5_key",
+            "editor": "StaticText",
+            "name": "custom_attribute_5_key",
+            "optional": true,
+            "rank": 10
+        },
+        "AAX": {
+            "caption": "custom_attribute_5_value",
+            "doc": "custom_attribute_5_value",
+            "editor": "DynamicValue",
+            "name": "custom_attribute_5_value",
+            "optional": true,
+            "rank": 11,
+            "value": "text"
+        }
+    },
+    "icon": "ion-social-youtube",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    },
+    "support_autobinding": false
+}

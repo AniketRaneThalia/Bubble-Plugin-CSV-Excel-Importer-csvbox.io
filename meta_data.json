@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical",
+        "2": "data (things)"
+    },
+    "demo_page": "https://csvbox-demo.bubbleapps.io/version-test",
+    "description": "This plugin is a drop in CSV Excel data importer for Bubble database. \n\nIt allows developers to import customer CSV Excel data into Bubble database in a few minutes.\n",
+    "image": "//s3.amazonaws.com/appforest_uf/f1628686667974x180359945762939900/logo.png",
+    "license": "open_source",
+    "link": "https://csvbox.io",
+    "name": "CSV Excel Importer | csvbox.io",
+    "plugin_instructions": "Instructions available here - https://help.csvbox.io/destinations/bubble.io\n\n\nSee demo app here - https://csvbox-demo.bubbleapps.io/version-test"
+}

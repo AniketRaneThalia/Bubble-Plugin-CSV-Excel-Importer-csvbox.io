@@ -1,0 +1,49 @@
+<script type="text/javascript" src="https://js.csvbox.io/script.js"></script>
+<style>.csvbox-component{z-index:2147483647;}</style>
+<script>    
+    
+  
+  var IsCallbackdone = 0;     
+    
+  function callback(result, data) {     
+      
+      if(IsCallbackdone)
+          {
+              IsCallbackdone = 0;
+              return;
+          }
+      else
+          {
+              const event_import_done = new CustomEvent("import_done", { detail: data });
+
+              document.dispatchEvent(event_import_done);
+              
+              IsCallbackdone = 1;
+              
+          }     
+      
+    }  
+   
+    
+     let importer = new CSVBoxImporter("h8rwV9yusJPKunvkAEuqMQ8djuZjRk",{}, callback);
+    
+     importer.setUser({
+            user_id: 'default123'
+        });    
+    
+    
+    function openModal(){
+		importer.openModal();
+    }
+    
+     function initializeImporter(slug, userobj){		        
+        
+        importer.slug = slug;
+        importer.data = userobj;
+        importer.callback = callback;
+        importer.setUpImporter();         
+       
+    }    
+     
+    
+</script>
