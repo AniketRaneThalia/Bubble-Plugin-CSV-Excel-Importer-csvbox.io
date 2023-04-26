@@ -34,6 +34,9 @@ function(instance, properties, context) {
                 }else{
                     instance.triggerEvent('import_fail');
                 }
+            },{
+                libraryVersion: '3.1.0',
+                framework: 'Bubble'
             });
 
             importer.setUser({
