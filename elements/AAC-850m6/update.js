@@ -47,8 +47,6 @@ function(instance, properties, context) {
             var text = document.createTextNode(properties.button_text);
 
             button.appendChild(text);
-            button.style.width = '100%';
-            button.style.height = '100%';
             button.className += properties.button_classes;
             button.disabled = 'disabled';
             button.setAttribute('data-csvbox', '');
