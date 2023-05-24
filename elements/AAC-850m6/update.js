@@ -35,13 +35,11 @@ function(instance, properties, context) {
                     instance.triggerEvent('import_fail');
                 }
             },{
-                libraryVersion: '3.1.0',
+                libraryVersion: '3.1.2',
                 framework: 'Bubble'
             });
 
-            importer.setUser({
-                user_id: 'default123'
-            });
+            importer.setUser(userObj);
 
             var button = document.createElement('BUTTON');
             var text = document.createTextNode(properties.button_text);
