@@ -10,5 +10,6 @@
     "license": "open_source",
     "link": "https://csvbox.io",
     "name": "CSV Excel Importer | csvbox.io",
-    "plugin_instructions": "Instructions available here - https://help.csvbox.io/destinations/bubble.io\n\n\nSee demo app here - https://csvbox-demo.bubbleapps.io/version-test"
+    "plugin_instructions": "Instructions available here - https://help.csvbox.io/destinations/bubble.io\n\n\nSee demo app here - https://csvbox-demo.bubbleapps.io/version-test",
+    "sa_node_version": 18
 }

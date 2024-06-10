@@ -35,7 +35,7 @@
             "editor": "DynamicValue",
             "name": "user_id",
             "optional": true,
-            "rank": 3,
+            "rank": 4,
             "value": "text"
         },
         "AAO": {
@@ -44,7 +44,7 @@
             "editor": "StaticText",
             "name": "custom_attribute_2_key",
             "optional": true,
-            "rank": 4
+            "rank": 5
         },
         "AAP": {
             "caption": "custom_attribute_2_value",
@@ -52,11 +52,11 @@
             "editor": "DynamicValue",
             "name": "custom_attribute_2_value",
             "optional": true,
-            "rank": 5,
+            "rank": 6,
             "value": "text"
         },
         "AAQ": {
-            "caption": "button_text",
+            "caption": "Button text",
             "default_val": "Upload File",
             "doc": "Button Text",
             "editor": "StaticText",
@@ -65,12 +65,12 @@
             "rank": 1
         },
         "AAR": {
-            "caption": "button_classes",
+            "caption": "Button classes",
             "doc": "Classes to stylize the button",
             "editor": "StaticText",
             "name": "button_classes",
             "optional": true,
-            "rank": 2
+            "rank": 3
         },
         "AAS": {
             "caption": "custom_attribute_3_key",
@@ -78,7 +78,7 @@
             "editor": "StaticText",
             "name": "custom_attribute_3_key",
             "optional": true,
-            "rank": 6
+            "rank": 7
         },
         "AAT": {
             "caption": "custom_attribute_3_value",
@@ -86,7 +86,7 @@
             "editor": "DynamicValue",
             "name": "custom_attribute_3_value",
             "optional": true,
-            "rank": 7,
+            "rank": 8,
             "value": "text"
         },
         "AAU": {
@@ -95,7 +95,7 @@
             "editor": "StaticText",
             "name": "custom_attribute_4_key",
             "optional": true,
-            "rank": 8
+            "rank": 9
         },
         "AAV": {
             "caption": "custom_attribute_4_value",
@@ -103,7 +103,7 @@
             "editor": "DynamicValue",
             "name": "custom_attribute_4_value",
             "optional": true,
-            "rank": 9,
+            "rank": 10,
             "value": "text"
         },
         "AAW": {
@@ -112,7 +112,7 @@
             "editor": "StaticText",
             "name": "custom_attribute_5_key",
             "optional": true,
-            "rank": 10
+            "rank": 11
         },
         "AAX": {
             "caption": "custom_attribute_5_value",
@@ -120,8 +120,18 @@
             "editor": "DynamicValue",
             "name": "custom_attribute_5_value",
             "optional": true,
-            "rank": 11,
+            "rank": 12,
             "value": "text"
+        },
+        "AAc": {
+            "caption": "Data location",
+            "default_val": "United States",
+            "doc": "Select the geographic location of the servers & database for the user data.",
+            "editor": "Dropdown",
+            "name": "data_location",
+            "optional": true,
+            "options": "United States,Europe (Germany)",
+            "rank": 2
         }
     },
     "icon": "ion-social-youtube",

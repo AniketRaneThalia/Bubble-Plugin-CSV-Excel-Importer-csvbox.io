@@ -27,6 +27,20 @@ function(instance, properties, context) {
             if (properties.custom_attribute_5_key) {
                 userObj[properties.custom_attribute_5_key] = properties.custom_attribute_5_value;
             }
+            
+            
+            let configuration = {
+                libraryVersion: '3.2.1',
+                framework: 'Bubble'
+            };
+
+            if(properties.data_location) {
+                switch(properties.data_location) {
+                    case "Europe (Germany)":
+                        configuration.data_location = "eu-central-1";
+                        break;
+                }
+            }
 
             let importer = new CSVBoxImporter(properties.license_key, userObj, function(result, data) {
                 if(result) {
@@ -34,10 +48,7 @@ function(instance, properties, context) {
                 }else{
                     instance.triggerEvent('import_fail');
                 }
-            },{
-                libraryVersion: '3.1.2',
-                framework: 'Bubble'
-            });
+            }, configuration);
 
             importer.setUser(userObj);
 
