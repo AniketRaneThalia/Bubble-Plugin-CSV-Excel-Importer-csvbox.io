@@ -30,7 +30,7 @@ function(instance, properties, context) {
             
             
             let configuration = {
-                libraryVersion: '3.2.1',
+                libraryVersion: '3.3.1',
                 framework: 'Bubble'
             };
 
@@ -49,6 +49,14 @@ function(instance, properties, context) {
                     instance.triggerEvent('import_fail');
                 }
             }, configuration);
+            
+            let options = {};
+            
+            if(properties.language) {
+            	options.language = properties.language;
+            }
+            
+            importer.setOptions(options);
 
             importer.setUser(userObj);
 

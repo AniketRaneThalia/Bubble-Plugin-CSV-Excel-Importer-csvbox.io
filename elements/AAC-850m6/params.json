@@ -35,7 +35,7 @@
             "editor": "DynamicValue",
             "name": "user_id",
             "optional": true,
-            "rank": 4,
+            "rank": 5,
             "value": "text"
         },
         "AAO": {
@@ -44,7 +44,7 @@
             "editor": "StaticText",
             "name": "custom_attribute_2_key",
             "optional": true,
-            "rank": 5
+            "rank": 6
         },
         "AAP": {
             "caption": "custom_attribute_2_value",
@@ -52,7 +52,7 @@
             "editor": "DynamicValue",
             "name": "custom_attribute_2_value",
             "optional": true,
-            "rank": 6,
+            "rank": 7,
             "value": "text"
         },
         "AAQ": {
@@ -70,7 +70,7 @@
             "editor": "StaticText",
             "name": "button_classes",
             "optional": true,
-            "rank": 3
+            "rank": 4
         },
         "AAS": {
             "caption": "custom_attribute_3_key",
@@ -78,7 +78,7 @@
             "editor": "StaticText",
             "name": "custom_attribute_3_key",
             "optional": true,
-            "rank": 7
+            "rank": 8
         },
         "AAT": {
             "caption": "custom_attribute_3_value",
@@ -86,7 +86,7 @@
             "editor": "DynamicValue",
             "name": "custom_attribute_3_value",
             "optional": true,
-            "rank": 8,
+            "rank": 9,
             "value": "text"
         },
         "AAU": {
@@ -95,7 +95,7 @@
             "editor": "StaticText",
             "name": "custom_attribute_4_key",
             "optional": true,
-            "rank": 9
+            "rank": 10
         },
         "AAV": {
             "caption": "custom_attribute_4_value",
@@ -103,7 +103,7 @@
             "editor": "DynamicValue",
             "name": "custom_attribute_4_value",
             "optional": true,
-            "rank": 10,
+            "rank": 11,
             "value": "text"
         },
         "AAW": {
@@ -112,7 +112,7 @@
             "editor": "StaticText",
             "name": "custom_attribute_5_key",
             "optional": true,
-            "rank": 11
+            "rank": 12
         },
         "AAX": {
             "caption": "custom_attribute_5_value",
@@ -120,7 +120,7 @@
             "editor": "DynamicValue",
             "name": "custom_attribute_5_value",
             "optional": true,
-            "rank": 12,
+            "rank": 13,
             "value": "text"
         },
         "AAc": {
@@ -132,6 +132,15 @@
             "optional": true,
             "options": "United States,Europe (Germany)",
             "rank": 2
+        },
+        "AAd": {
+            "caption": "Language",
+            "doc": "Set language for the importer. Use language code like en, fr, de etc. If empty, the language will be set to English by default.",
+            "editor": "StaticText",
+            "long_text": false,
+            "name": "language",
+            "optional": true,
+            "rank": 3
         }
     },
     "icon": "ion-social-youtube",
