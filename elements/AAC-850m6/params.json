@@ -135,12 +135,14 @@
         },
         "AAd": {
             "caption": "Language",
+            "default_val": "",
             "doc": "Set language for the importer. Use language code like en, fr, de etc. If empty, the language will be set to English by default.",
-            "editor": "StaticText",
+            "editor": "DynamicValue",
             "long_text": false,
             "name": "language",
             "optional": true,
-            "rank": 3
+            "rank": 3,
+            "value": "text"
         }
     },
     "icon": "ion-social-youtube",

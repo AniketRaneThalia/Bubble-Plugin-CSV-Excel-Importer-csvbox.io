@@ -30,7 +30,7 @@ function(instance, properties, context) {
             
             
             let configuration = {
-                libraryVersion: '3.3.1',
+                libraryVersion: '3.3.2',
                 framework: 'Bubble'
             };
 
